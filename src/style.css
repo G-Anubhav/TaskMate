@@ -1,0 +1,204 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  transition: transform 0.3s ease;
+}
+
+.App:hover {
+  transform: scale(1.02);
+}
+
+h1 {
+  color: #3498db;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background: #3498db;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background: #2980b9;
+  transform: translateY(-2px);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: #fff;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  li:hover {
+    background: #f1f1f1;
+    transform: scale(1.02);
+  }
+  
+  li span {
+    cursor: pointer;
+  } */
+
+select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 10px;
+  transition: border-color 0.3s;
+}
+
+select:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+input[type="text"],
+select {
+  font-size: 1em;
+}
+
+.TaskSearch input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+.TaskSearch input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+.TaskSort select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+.TaskSort select:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Existing styles ... */
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px; /* Changed for a more card-like feel */
+  margin-bottom: 10px;
+  background: #fff;
+  transition: background 0.3s, transform 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added shadow for card effect */
+}
+
+li:hover {
+  background: #f1f1f1;
+  transform: scale(1.02);
+}
+
+li span {
+  cursor: pointer;
+  flex: 1; /* Added to take up available space */
+}
+
+.task-card {
+  background-color: #e3f2fd;
+  padding: 10px 15px;
+  border: 1px solid #90caf9;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-card:hover {
+  background-color: #bbdefb;
+}
+
+.task-title {
+  font-weight: bold;
+  margin-right: 10px;
+  flex: 1; /* Added to take up available space */
+}
+
+.task-controls {
+  display: flex;
+  align-items: center;
+}
+
+.task-controls button {
+  margin-left: 10px; /* Add some space between the dropdown and the button */
+}
+
+.completed-label {
+  font-size: 0.8em;
+  color: green;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.task-title.completed span.title {
+  text-decoration: line-through;
+}
