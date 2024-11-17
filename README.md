@@ -1,8 +1,6 @@
-# TaskMate
-TaskMate is a feature-packed task management app that helps you stay organized and productive. Add, delete, search, prioritize, sort, and complete tasks with ease.
-# TaskMate
+# TaskMaster Pro
 
-**TaskMate** is a feature-packed task management app designed to help you stay organized and productive. Add, delete, search, prioritize, sort, and complete tasks with ease. Enjoy an intuitive interface with engaging animations to boost your productivity.
+**TaskMaster Pro** is a feature-packed task management app designed to help you stay organized and productive. Add, delete, search, prioritize, sort, and complete tasks with ease. Enjoy an intuitive interface with engaging animations to boost your productivity.
 
 ## Features
 
@@ -15,12 +13,9 @@ TaskMate is a feature-packed task management app that helps you stay organized a
 - **Task Sorting**: Sort tasks by various criteria
 - **UI Animation**: Improve user interface with animations
 
-## Tech Stack
+## Setup and Launch Process
 
-- **Framework**: React
-- **Language**: JavaScript
-
-## Installation
+### Installation
 
 1. Clone the repository:
     ```bash
@@ -38,10 +33,29 @@ TaskMate is a feature-packed task management app that helps you stay organized a
     npm start
     ```
 
-## Usage
+### Usage
 
 1. Open your browser and navigate to `http://localhost:3000`.
 2. Add new tasks, search, and manage them with priority settings, sorting, and completion tracking.
+
+## Assumptions Made During Development
+
+- **Local Storage**: Tasks are persisted using the browser's local storage. This means data is stored locally on the user's device and will not sync across different devices or browsers.
+- **Priority Levels**: Tasks can be assigned a priority level from 0 (No Priority) to 3 (High Priority). These levels help in sorting tasks based on their importance.
+- **Completed Tasks**: Tasks marked as completed will display a "completed" label next to them and have a strike-through on the title to visually indicate their status.
+- **Search Functionality**: The search bar filters tasks based on the title, making it easier to find specific tasks.
+- **Editable Tasks**: Users can edit the title of existing tasks, reflecting changes in real-time.
+
+## Screenshots
+
+### Home Screen
+![Home Screen](screenshots/home.png)
+
+### Add Task
+![Add Task](screenshots/add_task.png)
+
+### Completed Task
+![Completed Task](screenshots/completed_task.png)
 
 ## Contributing
 
@@ -55,12 +69,9 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE] file for details.
 
 ## Acknowledgements
 
 - Thanks to the open-source community for the tools and resources that make projects like this possible.
 
----
-
-Feel free to customize this README file to better suit your project details and preferences! If you need any further assistance, just let me know.
