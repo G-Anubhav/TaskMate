@@ -49,13 +49,13 @@
 ## Screenshots
 
 ### Home Screen
-![Home Screen](screenshots/home.png)
+![Home Screen](images/Home Screen.png)
 
 ### Add Task
-![Add Task](screenshots/add_task.png)
+![Add Task](images/Add Task.png)
 
 ### Completed Task
-![Completed Task](screenshots/completed_task.png)
+![Completed Task](images/Completed Task.png)
 
 ## Contributing
 
